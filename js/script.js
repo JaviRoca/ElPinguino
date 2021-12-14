@@ -13,6 +13,8 @@ function alert(message, type) {
 
 if (alertTrigger) {
   alertTrigger.addEventListener('click', function () {
-    alert('Gracias por aportar a una construcción colectiva!', 'success')
+    alert('Gracias por transformar tu tiempo en una construcción colectiva!', 'success')
   })
 }
+
+/*=====CleanTxt=====*/

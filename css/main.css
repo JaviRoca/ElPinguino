@@ -8,19 +8,19 @@
 /*===================ANIMACION DE ENCABEZADO==========================*/
 
 header p {
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-name: slidein;
 }
 
 @keyframes slidein {
     from {
-      margin-left: 50%;
+      margin-left: 60%;
       width: 700%
     }
   
     to {
       margin-left: 0%;
-      width: 48%;
+      width: 37%;
     }
   }
 
@@ -61,6 +61,18 @@ header p {
 
 #bio {
     padding-top: 50px;
+}
+
+#bio1 {
+    text-align: center;
+}
+
+#bio2 {
+    text-align: center;
+}
+
+#bio3 {
+    text-align: center;
 }
 
 /*=========================RECOMENDACIONES================================*/
@@ -104,6 +116,22 @@ footer p {
     #recomendaciones {
         width: 90% !important;
     }
+    header p {
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+        from {
+          margin-left: 35%;
+          width: 700%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 65%;
+        }
+      }
 }
 
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
@@ -116,4 +144,20 @@ footer p {
     #iconos {
         padding-bottom: 10px;
     }
+    header p {
+        animation-duration: 2s;
+        animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+        from {
+          margin-left: 13%;
+          width: 700%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 87%;
+        }
+      }
 }
