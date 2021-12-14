@@ -41,6 +41,7 @@ header p {
 /*===================SLIDER DE IMAGENES==========================*/
 
 .carousel-inner {
+    width: 100%;
     max-block-size: 480px;
 }
 
@@ -48,14 +49,15 @@ header p {
 /*=========================INTRO================================*/
 
 #intro {
-    padding-top: 190px !important;
+    padding-top: 250px !important;
 }
 
 
 /*=========================BIOGRAFIA================================*/
 
 #bioTitulo {
-    padding-top: 165px !important;
+    padding-top: 200px !important;
+    padding-bottom: 50px !important;
     text-align: center;
 }
 
@@ -65,21 +67,38 @@ header p {
 
 #bio1 {
     text-align: center;
+    padding-bottom: 50px !important;
 }
 
 #bio2 {
     text-align: center;
+    padding-bottom: 50px !important;
 }
 
 #bio3 {
     text-align: center;
 }
 
+.h3DeBiografia {
+    padding-bottom: 25px;
+}
+
+.parrafosDeBiografia {
+    padding-top: 25px;
+}
+
 /*=========================RECOMENDACIONES================================*/
 
-#comentario {
+#recomendaciones {
+    padding-top: 130px !important;
+    padding-bottom: 80px !important;
+}
+#textoRecomendaciones {
     width: 100%;
     height: 100px;
+}
+#alertaEnviadoBtn {
+    width: 200px;
 }
 
 /*=========================FOOTER================================*/
@@ -106,16 +125,6 @@ footer p {
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 
 @media (max-width: 768px) {
-    #intro {
-        width: 90% !important;
-    }
-    .servicio-fila {
-        width: 100% !important;
-        text-align: center;
-    }
-    #recomendaciones {
-        width: 90% !important;
-    }
     header p {
         animation-duration: 3s;
         animation-name: slidein;
@@ -131,19 +140,28 @@ footer p {
           margin-left: 0%;
           width: 65%;
         }
-      }
+    }
+    .carousel-inner {
+        width: 100%;
+        max-block-size: 290px;
+    }
+    
+    #intro {
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #recomendaciones {
+        width: 86% !important;
+    }
+    
 }
 
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
 
 @media (max-width: 576px) {
-    .icono-wrap {
-        flex-wrap: wrap;
-        justify-content: center !important;
-    }
-    #iconos {
-        padding-bottom: 10px;
-    }
     header p {
         animation-duration: 2s;
         animation-name: slidein;
@@ -159,5 +177,19 @@ footer p {
           margin-left: 0%;
           width: 87%;
         }
-      }
+    }
+    .carousel-inner {
+        width: 100%;
+        max-block-size: 200px;
+    }
+    #intro {
+        padding-top: 250px !important;
+    }
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    #iconos {
+        padding-bottom: 10px;
+    }
 }

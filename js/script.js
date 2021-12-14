@@ -18,3 +18,10 @@ if (alertTrigger) {
 }
 
 /*=====CleanTxt=====*/
+
+function validar() {
+
+    console.log('Se envio la recomendacion')
+    formularioRecomendaciones. reset();
+    return false;
+}
