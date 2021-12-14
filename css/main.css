@@ -119,6 +119,7 @@ footer p {
     color: #f3f3f3;
 }
 
+
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 
@@ -192,4 +193,28 @@ footer p {
     #iconos {
         padding-bottom: 10px;
     }
+}
+
+
+/*=========================SMALL QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 360px) {
+    header {
+        height: 30px;
+        text-align: center !important;
+    }
+    
+    #kj {
+        font-size: small !important;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        max-block-size: 450px;
+    }
+    
+    #bioTitulo {
+        padding-bottom: 0px !important;
+    }   
+
 }
