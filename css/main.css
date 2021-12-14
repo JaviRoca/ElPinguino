@@ -41,21 +41,21 @@ header p {
 /*===================SLIDER DE IMAGENES==========================*/
 
 .carousel-inner {
-    max-block-size: 500px;
+    max-block-size: 480px;
 }
 
 
 /*=========================INTRO================================*/
 
 #intro {
-    padding-top: 175px !important;
+    padding-top: 190px !important;
 }
 
 
 /*=========================BIOGRAFIA================================*/
 
 #bioTitulo {
-    padding-top: 140px !important;
+    padding-top: 165px !important;
     text-align: center;
 }
 
