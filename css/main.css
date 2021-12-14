@@ -41,13 +41,27 @@ header p {
 /*===================SLIDER DE IMAGENES==========================*/
 
 .carousel-inner {
-    max-block-size: 300px;
+    max-block-size: 500px;
+}
+
+
+/*=========================INTRO================================*/
+
+#intro {
+    padding-top: 175px !important;
 }
 
 
 /*=========================BIOGRAFIA================================*/
 
+#bioTitulo {
+    padding-top: 140px !important;
+    text-align: center;
+}
 
+#bio {
+    padding-top: 50px;
+}
 
 /*=========================RECOMENDACIONES================================*/
 
@@ -69,7 +83,7 @@ footer p {
 }
 
 #iconos i {
-    font-size: 20px;
+    font-size: 25px;
     padding: 0 8px;
     color: #f3f3f3;
 }
